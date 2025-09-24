@@ -14,6 +14,9 @@ The goal of the project are as follows:
 ### Collision Detection & Path Selection
 The vehicle was bounded by circles. The paths that led to collisions were excluded (marked by red). The best path in the remaining paths was selected according to how closely it followed the lane centerline, and how far away it was from other paths that were in collision. The best path is marked by black.
 
+<img width="695" height="408" alt="trajectories" src="https://github.com/user-attachments/assets/9905bccc-0d8b-4623-b77d-c05656032032" />
+
+
 ## Velocity Profile Generation
 It takes a path, and computes a velocity profile to the goal speed. Two velocity porfiles were used according to the scenario at hand:
 - decelerate_to_stop to decelerate to a stop line. A trapezoidal velocity profile was used. 
@@ -30,5 +33,11 @@ The order of precedence for handling these cases were stop sign handling, lead v
   
 ## Results
 The following shows the results in CARLA simulator.
+
+
+https://github.com/user-attachments/assets/9d73ec8f-e81b-4da9-af1c-009a59a661fd
+
+
+
 
 
